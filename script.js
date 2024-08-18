@@ -28,6 +28,7 @@
 
 
 
+
 // let num=[1,2,3,4,5,6,7,8,9,10];
 // for( i=0;i<num.length;i++)
 // {
@@ -52,12 +53,18 @@
 // "name ": "23",
 // "CLASS": "10",
 // fun :function(){
-//     console.log("hello I am function pandit");
+//     console.log("hello I am function inside the object");
 
 // }
 // }
 // Obj.fun();
 
+
+// for(let i in obj ){
+//     console.log(obj[i]);
+// }
+
+// Object inside array 
 
 // let arr=[
     
@@ -67,6 +74,10 @@
     
 // ];
 // console.log(arr)
+
+//Function inside function
+
+
 // function sum(){
 //     console.log("this is a function");
 //     const a=2;
@@ -378,7 +389,7 @@
 
 // var a=  document.querySelector('.pandit')
 // console.log(a.previousElementSibling)
-const aul = document.querySelector('ul');
+// const aul = document.querySelector('ul');
 
 
-aul.remove();
+// aul.remove();
