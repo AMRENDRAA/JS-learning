@@ -99,21 +99,25 @@
 
 //  }
 //  sum();
+// console.log("test");
 
 
+// repeation is not allowed in set unique values are there
 
 // let a=[10,20,20,20,892,289,29,29]
 // let s=new Set([10,20,20,30,40,50]);
 // console.log(s);
 
-// var obj={
-//    fname :"John",
-//    age:8,
-//    fun :function(){
-//       console.log(this.fname);
-//    }
-// }
-// obj.fun();
+var obj={
+   fname :"John",
+   age:8,
+   fun :function(){
+      console.log(this.fname);
+   }
+}
+obj.fun();
+
+console.log("this");
 
 // function sum(n){
 //    if(n<10)
